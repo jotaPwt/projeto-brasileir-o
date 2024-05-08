@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <title>ProbBrasileirão</title>
+</head>
+<body>
+    <header class="cabecalho"> 
+        <h1 class="cabecalho__titulo">PROBABILIDADES DO BRASILEIRÃO</h1>
+    </header>
+    
+    <h2 class="principal__titulo">Insira os times que deseja calcular:</h2>
+
+    <section class="principal">
+        
+        <div class="container">
+            <button class="botao" id="toggleButton">TIME 1</button>
+            <div id="menu" class="menu">
+                <div class="colunas">
+                    <img src="./img/gremio.svg" alt="Time 1" onclick="displayImage(this.src, 1, 'Grêmio')">
+                    <img src="./img/palmeiras.svg" alt="Time 2" onclick="displayImage(this.src, 1, 'Palmeiras')">
+                    <img src="./img/saopaulo.svg" alt="Time 4" onclick="displayImage(this.src, 1, 'São Paulo')">
+                    <img src="./img/america-mineiro.svg" alt="Time 5" onclick="displayImage(this.src, 1, 'América-MG')">
+                    <img src="./img/athletico-paranaense.svg" alt="Time 6" onclick="displayImage(this.src, 1, 'Athletico-PR')">
+                    <img src="./img/atletico-mineiro.svg" alt="Time 7" onclick="displayImage(this.src, 1, 'Atlético-MG')">
+                    <img src="./img/bahia.svg" alt="Time 8" onclick="displayImage(this.src, 1, 'Bahia')">
+                    <img src="./img/botafogo.svg" alt="Time 9" onclick="displayImage(this.src, 1, 'Botafogo')">
+                    <img src="./img/red-bull-bragantino.svg" alt="Time 10" onclick="displayImage(this.src, 1, 'Red Bull Bragantino')">
+                    <img src="./img/corinthians.svg" alt="Time 11" onclick="displayImage(this.src, 1, 'Corinthians')">
+                    <img src="./img/logo-goias-esporte-clube-2048.png" alt="Time 14" onclick="displayImage(this.src, 1, 'Goiás')">
+                    <img src="./img/flamengo.svg" alt="Time 15" onclick="displayImage(this.src, 1, 'Flamengo')">
+                    <img src="./img/fluminense.svg" alt="Time 16" onclick="displayImage(this.src, 1, 'Fluminense')">
+                    <img src="./img/fortaleza.svg" alt="Time 17" onclick="displayImage(this.src, 1, 'Fortaleza')">
+                    <img src="./img/internacional.svg" alt="Time 18" onclick="displayImage(this.src, 1, 'Internacional')">
+                    <img src="./img/santos.svg" alt="Time 19" onclick="displayImage(this.src, 1, 'Santos')">
+                    <img src="./img/vasco-da-gama.svg" alt="Time 20" onclick="displayImage(this.src, 1, 'Vasco')">
+            </div>
+              </div>
+            
+            <div id="displayImage-1"></div>  
+        </div>
+            <div class="conteiner__imagem-campo">
+                <img class="imagem__campo" src="./img/campo.svg" alt="imagem do campo de futebol">
+                <p class="acuracia__texto">## de acuracia</p>
+            </div>
+            
+            <div class="container-2">
+                <button class="botao" id="toggleButton-2">TIME 2</button>
+                <div id="menu-2" class="menu-2">
+                    <div class="colunas">
+                        <img src="./img/gremio.svg" alt="Time 1" onclick="displayImage(this.src, 2, 'Grêmio')">
+                        <img src="./img/palmeiras.svg" alt="Time 2" onclick="displayImage(this.src, 2, 'Palmeiras')">
+                        <img src="./img/saopaulo.svg" alt="Time 4" onclick="displayImage(this.src, 2, 'São Paulo')">
+                        <img src="./img/america-mineiro.svg" alt="Time 5" onclick="displayImage(this.src, 2, 'América-MG')">
+                        <img src="./img/athletico-paranaense.svg" alt="Time 6" onclick="displayImage(this.src, 2, 'Athletico-PR')">
+                        <img src="./img/atletico-mineiro.svg" alt="Time 7" onclick="displayImage(this.src, 2, 'Atlético-MG')">
+                        <img src="./img/bahia.svg" alt="Time 8" onclick="displayImage(this.src, 2, 'Bahia')">
+                        <img src="./img/botafogo.svg" alt="Time 9" onclick="displayImage(this.src, 2, 'Botafogo')">
+                        <img src="./img/red-bull-bragantino.svg" alt="Time 10" onclick="displayImage(this.src, 2, 'Red Bull Bragantino')">
+                        <img src="./img/corinthians.svg" alt="Time 11" onclick="displayImage(this.src, 2, 'Corinthians')">
+                        <img src="./img/logo-goias-esporte-clube-2048.png" alt="Time 14" onclick="displayImage(this.src, 2, 'Goiás')">
+                        <img src="./img/flamengo.svg" alt="Time 15" onclick="displayImage(this.src, 2, 'Flamengo')">
+                        <img src="./img/fluminense.svg" alt="Time 16" onclick="displayImage(this.src, 2, 'Fluminense')">
+                        <img src="./img/fortaleza.svg" alt="Time 17" onclick="displayImage(this.src, 2, 'Fortaleza')">
+                        <img src="./img/internacional.svg" alt="Time 18" onclick="displayImage(this.src, 2, 'Internacional')">
+                        <img src="./img/santos.svg" alt="Time 19" onclick="displayImage(this.src, 2, 'Santos')">
+                        <img src="./img/vasco-da-gama.svg" alt="Time 20" onclick="displayImage(this.src, 2, 'Vasco')">
+                    </div>
+                     
+                </div>
+                
+                <div id="displayImage-2"></div>
+                <button class="botao__rodar" onclick="verAcuracia()">VER ACURACIA</button>
+            </div>
+    </section>
+   
+    <script src="./script.js"></script>
+</body>
+</html>
